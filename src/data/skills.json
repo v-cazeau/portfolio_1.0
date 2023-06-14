@@ -1,0 +1,77 @@
+[
+    {
+        "id": 5.01,
+        "skill": "JavaScript",
+        "webpage": "https://www.w3schools.com/js/default.asp"
+      },
+      {
+        "id": 5.02,
+        "skill": "HTML",
+        "webpage": "https://www.w3schools.com/html/default.asp"
+      },
+      {
+        "id": 5.03,
+        "skill": "CSS",
+        "webpage": "https://www.w3schools.com/css/"
+      },
+      {
+        "id": 5.04,
+        "skill": "TypeScript",
+        "webpage": "https://www.typescriptlang.org/"
+      },
+      {
+        "id": 5.05,
+        "skill": "SQL",
+        "webpage": "https://www.w3schools.com/sql/"
+      },
+      {
+        "id": 5.06,
+        "skill": "React",
+        "webpage": "https://reactjs.org/"
+      },
+      {
+        "id": 5.07,
+        "skill": "Node.js",
+        "webpage": "https://nodejs.org/"
+      },
+      {
+        "id": 5.08,
+        "skill": "Express.js",
+        "webpage": "https://expressjs.com/"
+      },
+      {
+        "id": 5.09,
+        "skill": "Bootstrap",
+        "webpage": "https://getbootstrap.com/"
+      },
+      {
+        "id": 5.10,
+        "skill": "React Bootstrap",
+        "webpage": "https://react-bootstrap.github.io/"
+      },
+      {
+        "id": 5.11,
+        "skill": "MySQL",
+        "webpage": "https://www.mysql.com/"
+      },
+      {
+        "id": 5.12,
+        "skill": "MongoDB",
+        "webpage": "https://www.mongodb.com/"
+      },
+      {
+        "id": 5.13,
+        "skill": "Firestore",
+        "webpage": "https://firebase.google.com/docs/firestore"
+      },
+      {
+        "id": 5.14,
+        "skill": "Figma",
+        "webpage": "https://www.figma.com/"
+      },
+      {
+        "id": 5.15,
+        "skill": "Photopea",
+        "webpage": "https://www.photopea.com/"
+      }
+]
