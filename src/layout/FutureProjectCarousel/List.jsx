@@ -1,56 +1,35 @@
-// import { Carousel, Card, Button } from 'react-bootstrap'; 
-// import data from '../../data/bc_gallery.json'
+import { Carousel, Card, Button } from 'react-bootstrap';  
+import data from '../../data/fut_gallery.json'
 
 export default function List () {
+    const itemsPerSlide = 3; // Number of items to display per slide
 
-  return (
-    <div id="carouselExample" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div className='card-wrapper'>
-            <div class="card">
-            <div className="image-wrapper">
-            <img src="https://picsum.photos/500/600?random=1" class="card-img-top" alt="..."/>
+    // Split data into chunks based on itemsPerSlide
+    const chunks = [];
+    for (let i = 0; i < data.length; i += itemsPerSlide) {
+      chunks.push(data.slice(i, i + itemsPerSlide));
+    }
+  
+    return (
+      <Carousel className='carousel-dark'>
+        {chunks.map((chunk, index) => (
+          <Carousel.Item key={index}>
+            <div className='card-wrapper'>
+              {chunk.map((item) => (
+                <Card key={item.id}>
+                  <Card.Img src={item.image} />
+                  <Card.Body>
+                    <Card.Title>{item.title}</Card.Title>
+                    <Card.Text>{item.content}</Card.Text>
+                    <Button variant="primary" href={item.repo}>
+                      Go somewhere
+                    </Button>
+                  </Card.Body>
+                </Card>
+              ))}
             </div>
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">Go somewhere</a>
-            </div>          
-            </div>
-
-            <div class="card">
-            <div className="image-wrapper">
-            <img src="https://picsum.photos/500/600?random=2" class="card-img-top" alt="..."/>
-            </div>
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="/" class="btn btn-primary">Go somewhere</a>
-            </div>
-            </div>
-            
-                <div class="card">
-                <img src="https://picsum.photos/500/600?random=3" class="card-img-top" alt="..."/>
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="/" class="btn btn-primary">Go somewhere</a>
-                </div>
-                </div>
-            </div>
-        </div>
-     
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  );
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    )
 }
