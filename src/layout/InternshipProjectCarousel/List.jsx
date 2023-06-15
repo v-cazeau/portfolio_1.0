@@ -2,12 +2,12 @@ import { Carousel, Card, Button } from 'react-bootstrap';
 
 export default function List() {
     return (
-    <Carousel>
+    <Carousel className='carousel-dark'>
       <Carousel.Item>
         
         <div className='card-wrapper'>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="https://picsum.photos/500/600?random=1" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -18,8 +18,8 @@ export default function List() {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -30,8 +30,8 @@ export default function List() {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -46,8 +46,8 @@ export default function List() {
 
       <Carousel.Item>
         <div className='card-wrapper'>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -58,8 +58,8 @@ export default function List() {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -70,8 +70,8 @@ export default function List() {
             </Card.Body>
             </Card>
             
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -86,8 +86,8 @@ export default function List() {
 
       <Carousel.Item>
         <div className='card-wrapper'>
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -98,8 +98,8 @@ export default function List() {
             </Card.Body>
             </Card>
 
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
@@ -110,8 +110,8 @@ export default function List() {
             </Card.Body>
             </Card>
             
-            <Card style={{ width: '18rem' }}>
-            <Card.Img variant="top" src="holder.js/100px180" />
+            <Card >
+            <Card.Img src="holder.js/100px180" />
             <Card.Body>
                 <Card.Title>Card Title</Card.Title>
                 <Card.Text>
