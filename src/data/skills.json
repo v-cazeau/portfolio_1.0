@@ -20,11 +20,6 @@
         "webpage": "https://www.typescriptlang.org/"
       },
       {
-        "id": 5.05,
-        "skill": "SQL",
-        "webpage": "https://www.w3schools.com/sql/"
-      },
-      {
         "id": 5.06,
         "skill": "React",
         "webpage": "https://reactjs.org/"
@@ -53,6 +48,11 @@
         "id": 5.11,
         "skill": "MySQL",
         "webpage": "https://www.mysql.com/"
+      },
+      {
+        "id": 5.12,
+        "skill": "Google Cloud",
+        "webpage": "https://www.mongodb.com/"
       },
       {
         "id": 5.12,
