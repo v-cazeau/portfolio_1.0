@@ -9,11 +9,12 @@ export default function Footer() {
         <footer> 
             <Container> 
                 <Row>
-                     <Col> 
+                     <Col className="text-center"> 
                      <div> 
                         <a href = {url} 
                         target ="_blank"
                         rel = "noreferrer"
+                        className="button-effect"
                         >Code in GitHub</a>
                             <p> &copy;{currentYear} Véronie Cazeau</p>
                         </div>
