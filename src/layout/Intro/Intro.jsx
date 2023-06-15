@@ -1,11 +1,11 @@
 import { Container, Row, Col } from 'react-bootstrap'; 
 
-export default function Contact() {
+export default function Intro() {
     return (
         <Container> 
-            <Row> 
+            <Row>
                 <Col>
-                    <h2> Contact </h2>
+                    <h1>INTRO</h1>
                 </Col>
             </Row>
         </Container>

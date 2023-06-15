@@ -1,4 +1,4 @@
-import { Container, Row } from 'react-bootstap'; 
+import { Container, Row } from 'react-bootstrap'; 
 
 export default function List () {
     return (
