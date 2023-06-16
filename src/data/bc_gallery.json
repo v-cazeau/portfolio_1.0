@@ -3,7 +3,7 @@
     "id": 1.01,
     "title": "React Counter App",
     "content": "Boca Code Week 4 React Counter App: This project is a React Counter App that focuses on practicing the useState() hook in React. It allows users to increment, decrement, and reset a displayed number.",
-    "image": "https://picsum.photos/500/600?random=1",
+    "image": "/Users/veroniecazeau/intern/portfolio_1.0/src/data/assets/projects/kardashev.webp",
     "repo" : "https://github.com/v-cazeau/react-counter-app"
   },
   {
