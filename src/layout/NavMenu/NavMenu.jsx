@@ -6,10 +6,9 @@ export default function NavMenu() {
   
     return (
         <>
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="light" expand="lg" className="sticky-top">
         <Container>
             <Navbar.Brand href="#home"> Portfolio </Navbar.Brand>
-            
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" drop="up">
             <Nav className="ms-auto">

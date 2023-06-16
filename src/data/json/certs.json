@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Software Engineering Career Course",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/bcCert.webp",
+      "issued": "Boca Code",
+      "date": "May 2023"
+    },
+    {
+      "name": "Artificial Intelligence Foundations",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/aiCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "Mar 2023"
+    },
+    {
+      "name": "Create a Brand Strategy",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/brandCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "May 2023"
+    },
+    {
+      "name": "Figma Essential Training",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/figmaCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "May 2023"
+    },
+    {
+      "name": "Get Ready for Generative AI",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/genAiCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "Apr 2023"
+    },
+    {
+      "name": "How to Plan Your Website",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/planWebsiteCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "Jun 2023"
+    },
+    {
+      "name": "Prompt Engineering: How to Talk to the AIs",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/promptEngineeringCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "Jun 2023"
+    },
+    {
+      "name": "React.js Essential Training",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/reactEssCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "May 2023"
+    },
+    {
+      "name": "React Hooks",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/reactHookCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "Apr 2023"
+    },
+    {
+      "name": "TypeScript Essential Training",
+      "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/certs/tsEssCert.webp",
+      "issued": "LinkedIn Learning",
+      "date": "May 2023"
+    }
+  ]
+  

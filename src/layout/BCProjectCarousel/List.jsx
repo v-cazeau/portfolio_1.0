@@ -1,5 +1,5 @@
 import { Carousel, Card, Button } from 'react-bootstrap'; 
-import data from '../../data/bc_gallery.json'
+import data from '../../data/json/bc_gallery.json'
 
 export default function List () {
     const itemsPerSlide = 3; // Number of items to display per slide

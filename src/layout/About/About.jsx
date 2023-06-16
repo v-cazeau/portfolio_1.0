@@ -7,7 +7,7 @@ export default function About () {
         <Container>
         <Row className="text-center">
             <Col sm={12} md={6}>
-                <img src= {`../data/assets/profilePic.webp`}
+                <img src= {`https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/profilePic.webp`}
                     className="rounded-circle"
                     alt="Véronie Cazeau" />
             </Col>

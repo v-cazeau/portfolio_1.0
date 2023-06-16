@@ -21,7 +21,11 @@ export default function ResumeModal() {
           <Modal.Title>Résumé</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <embed src={""} type="application/pdf" width="100%" height="500px" />
+          <embed src="path_to_your_resume.pdf" type="application/pdf" width="100%" height="500px" />
+          <p>Click the link below to download the résumé:</p>
+          <a href="https://github.com/v-cazeau/portfolio_1.0/raw/main/src/data/2023FSDResume.pdf" download>
+            Download Résumé
+          </a>
         </Modal.Body>
         <Modal.Footer>
           <Button onClick={closeModal}>Close</Button>
