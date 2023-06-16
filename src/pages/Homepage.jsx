@@ -4,6 +4,7 @@ import InternshipProjectCarousel from '../layout/InternshipProjectCarousel';
 import BCProjectCarousel from '../layout/BCProjectCarousel';
 import About from '../layout/About';
 import CertGallery from '../layout/CertGallery';
+import Skills from '../layout/Skills';
 import AppLayout from '../layout/AppLayout';
 
 export default function Homepage() {
@@ -15,6 +16,7 @@ export default function Homepage() {
             <BCProjectCarousel />
             <About />
             <CertGallery />
+            <Skills />
         </AppLayout>
     )
 }

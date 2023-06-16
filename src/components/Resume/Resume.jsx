@@ -21,7 +21,7 @@ export default function ResumeModal() {
           <Modal.Title>Résumé</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <embed src="https://github.com/v-cazeau/portfolio_1.0/blob/main/src/data/2023FSDResume.jpg" type="application/pdf" width="100%" height="500px" />
+          <embed src="https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/2023FSDResume.webp" type="application/pdf" width="100%" height="500px" />
           <p>Click the link below to download the résumé:</p>
           <a href="https://github.com/v-cazeau/portfolio_1.0/raw/main/src/data/2023FSDResume.pdf" download>
             Download Résumé
