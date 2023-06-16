@@ -38,8 +38,8 @@ export default function TypewriterAboutMe() {
   }, [currentPassageIndex, index]);
 
   return (
-    <p id="typewriter" style={{ height: "1em" }}>
+    <h3 id="typewriter" style={{ height: "1em" }}>
       {currentPassage}
-    </p>
+    </h3>
   );
 }

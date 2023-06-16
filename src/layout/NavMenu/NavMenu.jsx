@@ -1,20 +1,28 @@
-import { Nav, Navbar, Container } from 'react-bootstrap'; 
-import { Link } from 'react-router-dom';
+import { Container, Navbar, Nav } from "react-bootstrap";
+import { HashLink } from "react-router-hash-link";
+import Resume from "../../components/Resume"
 
-export default function NavMenu () {
+export default function NavMenu() {
+  
     return (
+        <>
         <Navbar bg="light" expand="lg">
         <Container>
-            <Navbar.Brand href="#home">Porfolio</Navbar.Brand>
+            <Navbar.Brand href="#home"> Portfolio </Navbar.Brand>
+            
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-                <Nav.Link as={Link} to= '/' >Home</Nav.Link>
-                <Nav.Link as={Link} to= '/about'>About</Nav.Link>
-                <Nav.Link as={Link} to= '/contact'>Contact</Nav.Link>
+            <Navbar.Collapse id="basic-navbar-nav" drop="up">
+            <Nav className="ms-auto">
+                <Nav.Link as={ HashLink } to="#about">About</Nav.Link>
+                <Nav.Link as={ HashLink } to="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link as={ HashLink } to="#skills">Skills</Nav.Link>
+                <Nav.Link as={ HashLink } to="#certs">Certifications</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>
+        <Resume />
         </Navbar>
-    )
+        </>
+    
+  );
 }

@@ -22,7 +22,7 @@ export default function List () {
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.content}</Card.Text>
                     <Button variant="primary" href={item.repo}>
-                      Go somewhere
+                     Go to Repo
                     </Button>
                   </Card.Body>
                 </Card>
