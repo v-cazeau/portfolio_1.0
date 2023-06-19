@@ -2,76 +2,77 @@
     {
         "id": 5.01,
         "skill": "JavaScript",
-        "webpage": "https://www.w3schools.com/js/default.asp"
+        "svg": "javascript"
+      
       },
       {
         "id": 5.02,
         "skill": "HTML",
-        "webpage": "https://www.w3schools.com/html/default.asp"
+        "svg": "html"
       },
       {
         "id": 5.03,
         "skill": "CSS",
-        "webpage": "https://www.w3schools.com/css/"
+        "svg": "css"
       },
       {
         "id": 5.04,
         "skill": "TypeScript",
-        "webpage": "https://www.typescriptlang.org/"
+        "svg": "typescript"
       },
       {
         "id": 5.06,
         "skill": "React",
-        "webpage": "https://reactjs.org/"
+        "svg": "react"
       },
       {
         "id": 5.07,
         "skill": "Node.js",
-        "webpage": "https://nodejs.org/"
+        "svg": "node"
       },
       {
         "id": 5.08,
         "skill": "Express.js",
-        "webpage": "https://expressjs.com/"
+        "svg" : "express"
       },
       {
         "id": 5.09,
         "skill": "Bootstrap",
-        "webpage": "https://getbootstrap.com/"
+        "svg" : "bootstrap"
       },
       {
         "id": 5.10,
         "skill": "React Bootstrap",
-        "webpage": "https://react-bootstrap.github.io/"
+        "svg": "react-bootstrap"
       },
       {
         "id": 5.11,
         "skill": "MySQL",
-        "webpage": "https://www.mysql.com/"
+        "svg": "mysql"
       },
       {
         "id": 5.12,
         "skill": "Google Cloud",
-        "webpage": "https://www.mongodb.com/"
+        "svg": "google-cloud-icon"
       },
       {
         "id": 5.12,
         "skill": "MongoDB",
-        "webpage": "https://www.mongodb.com/"
+        "svg": "mongo"
       },
       {
         "id": 5.13,
         "skill": "Firestore",
-        "webpage": "https://firebase.google.com/docs/firestore"
+        "svg" : "firestore"
       },
       {
         "id": 5.14,
         "skill": "Figma",
-        "webpage": "https://www.figma.com/"
+        "svg": "figma"
       },
       {
         "id": 5.15,
         "skill": "Photopea",
-        "webpage": "https://www.photopea.com/"
+        "svg" : "photopea"
       }
 ]

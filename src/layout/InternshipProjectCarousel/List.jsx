@@ -11,7 +11,8 @@ export default function List () {
     }
   
     return (
-      <Carousel className='carousel-dark'>
+      <section>
+      <Carousel className='carousel-dark d-none d-sm-block'>
         {chunks.map((chunk, index) => (
           <Carousel.Item key={index}>
             <div className='card-wrapper'>
@@ -22,7 +23,7 @@ export default function List () {
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.content}</Card.Text>
                     <Button variant="primary" href={item.repo}>
-                     Go to Repo
+                      Go to Repo
                     </Button>
                   </Card.Body>
                 </Card>
@@ -31,5 +32,25 @@ export default function List () {
           </Carousel.Item>
         ))}
       </Carousel>
+
+      <Carousel className="carousel-dark d-sm-none">
+        {data.map((item) => (
+          <Carousel.Item key={item.id}>
+            <div className="card-wrapper">
+              <Card key={item.id}>
+                <Card.Img src={item.image} alt={item.name} />
+                <Card.Body>
+                  <Card.Title>{item.title}</Card.Title>
+                  <Card.Text>{item.content}</Card.Text>
+                  <Button variant="primary" href={item.repo}>
+                  Go to Repo
+                  </Button>
+                </Card.Body>
+              </Card>
+            </div>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+      </section>
     )
 }

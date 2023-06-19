@@ -4,7 +4,7 @@ import data from '../../data/json/certs.json';
 
 export default function CertificateCarousel() {
   return (
-    <section>
+    <section id="certs">
     <Container>
       <Row>
         <Col sm={12} md={4}>
