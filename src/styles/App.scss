@@ -1,9 +1,11 @@
 @use "../layout/CertGallery/gallery";
+@use "../layout/Skills/skills";
+// @use "./bg.scss";
 
 
-
-
-
+#portfolio #about #skills #credentials {
+  scroll-margin: 150em;
+}
 
 //*********************CAROUSELS***************************//
 

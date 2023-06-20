@@ -28,7 +28,7 @@
       {
         "id": 5.07,
         "skill": "Node.js",
-        "svg": "node"
+        "svg": "nodejs"
       },
       {
         "id": 5.08,
@@ -43,7 +43,7 @@
       {
         "id": 5.10,
         "skill": "React Bootstrap",
-        "svg": "react-bootstrap"
+        "svg": "reactbootstrap"
       },
       {
         "id": 5.11,
@@ -53,17 +53,17 @@
       {
         "id": 5.12,
         "skill": "Google Cloud",
-        "svg": "google-cloud-icon"
+        "svg": "gcp"
       },
       {
         "id": 5.12,
         "skill": "MongoDB",
-        "svg": "mongo"
+        "svg": "mongodb"
       },
       {
         "id": 5.13,
-        "skill": "Firestore",
-        "svg" : "firestore"
+        "skill": "Firebase",
+        "svg" : "firebase"
       },
       {
         "id": 5.14,
@@ -74,5 +74,30 @@
         "id": 5.15,
         "skill": "Photopea",
         "svg" : "photopea"
+      },
+      {
+        "id": 5.16,
+        "skill": "Sass",
+        "svg" : "sass"
+      },
+      {
+        "id": 5.17,
+        "skill": "Electron",
+        "svg" : "electron"
+      },
+      {
+        "id": 5.18,
+        "skill": "Next.js",
+        "svg" : "nextjs"
+      },
+      {
+        "id": 5.19,
+        "skill": "Tailwind",
+        "svg" : "tailwind"
+      },
+      {
+        "id": 5.20,
+        "skill": "Docker",
+        "svg" : "docker"
       }
 ]

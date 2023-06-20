@@ -1,0 +1,26 @@
+.skills-icons{
+    filter: drop-shadow(1px 1px 8px rgba(97, 181, 127, 0.919));
+    padding: 8px;
+}
+
+.skills-icons:hover{
+    filter: drop-shadow(1px 1px 18px rgba(21, 120, 67, 0.919));
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .panel {
+    text-align: center;
+  }
+  
+  .skills-icons {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+  }

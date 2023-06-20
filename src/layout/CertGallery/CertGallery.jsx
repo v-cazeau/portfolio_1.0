@@ -7,6 +7,11 @@ export default function CertificateCarousel() {
     <section id="certs">
     <Container>
       <Row>
+        <Col className="text-center">
+        <h2>Certified Skills</h2>
+        </Col>
+      </Row>
+      <Row>
         <Col sm={12} md={4}>
           <Carousel className="carousel-dark">
             {data.map((item) => (

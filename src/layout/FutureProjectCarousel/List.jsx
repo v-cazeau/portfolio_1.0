@@ -12,7 +12,9 @@ export default function List () {
   
     return (
       <section>
-      <Carousel className='carousel-dark d-none d-sm-block'>
+      <Carousel 
+        className='carousel-dark d-none d-sm-block'
+        controls={data.length > itemsPerSlide}>
         {chunks.map((chunk, index) => (
           <Carousel.Item key={index}>
             <div className='card-wrapper'>
@@ -33,7 +35,9 @@ export default function List () {
         ))}
       </Carousel>
 
-      <Carousel className="carousel-dark d-sm-none">
+      <Carousel 
+        className="carousel-dark d-sm-none"
+        controls={data.length > itemsPerSlide}>
         {data.map((item) => (
           <Carousel.Item key={item.id}>
             <div className="card-wrapper">

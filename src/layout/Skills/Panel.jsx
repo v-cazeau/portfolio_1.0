@@ -1,11 +1,15 @@
-import { Image } from 'react-bootstrap';
+import { Image } from "react-bootstrap";
 
-export default function Panel({skill}) {
-    return (
-        <Image
-            src={`/icons/${skill}.svg`}
-            className='skills-icons'
-            style={{ display: "inline-block", width: "100px" }}
+export default function Panel({ skill }) {
+  return (
+    <div className="panel">
+      <Image
+        src={`/icons/${skill.svg}.svg`}
+        alt={skill.skill}
+        className="skills-icons"
+        style={{ display: "inline-block", width: "100px" }}
       />
-    )
+      <h3>{skill.skill}</h3>
+    </div>
+  );
 }
