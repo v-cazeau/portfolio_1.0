@@ -1,0 +1,17 @@
+[
+    {
+        "id": 4.01,
+        "name": "LinkedIn",
+        "linkedInUrl": "https://www.linkedin.com/in/veronie-cazeau-/"
+    }, 
+    {   
+        "id": 4.02,
+        "name": "GitHub", 
+        "gitHubUrl": "https://github.com/v-cazeau"
+    }, 
+    {
+        "id": 4.03,
+        "name": "Email", 
+        "candidateUrl": "https://creator.nightcafe.studio/u/M0MssFqrbHZx9Smt9GpDfkF1bkJ2"
+    }
+]

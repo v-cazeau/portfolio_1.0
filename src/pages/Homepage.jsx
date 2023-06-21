@@ -11,12 +11,19 @@ export default function Homepage() {
     return (
         <AppLayout>
             <Intro />
+            <section id="portfolio">
+            <h2 className="text-center">Portfolio</h2>
             <FutureProjectCarousel />
             <InternshipProjectCarousel />
             <BCProjectCarousel />
+            </section>
             <About />
-            <CertGallery />
             <Skills />
+            <CertGallery />
+            {/* <div className="bottom-scene-container">
+                <Social />
+                <Footer />
+            </div> */}
         </AppLayout>
     )
 }

@@ -13,3 +13,4 @@ export default function Panel({ skill }) {
     </div>
   );
 }
+

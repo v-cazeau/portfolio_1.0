@@ -8,7 +8,7 @@ export default function NavMenu() {
         <>
         <Navbar bg="light" expand="lg" className="sticky-top">
         <Container>
-            <Navbar.Brand href="#home"> Portfolio </Navbar.Brand>
+            <Navbar.Brand href="#home"> Growing Porfolio </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" drop="up">
             <Nav className="ms-auto">

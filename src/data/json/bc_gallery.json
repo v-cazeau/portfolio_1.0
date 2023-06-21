@@ -2,35 +2,35 @@
   {
     "id": 1.01,
     "title": "React Counter App",
-    "content": "Boca Code Week 4 React Counter App: This project is a React Counter App that focuses on practicing the useState() hook in React. It allows users to increment, decrement, and reset a displayed number.",
+    "content": "Boca Code Week 4: A React project practicing useState() hook  for smooth incrementing, decrementing, and resetting of a displayed number.",
     "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/projects/reactCounter.webp",
     "repo" : "https://github.com/v-cazeau/react-counter-app"
   },
   {
     "id": 1.02,
     "title": "Kardashev Scale",
-    "content": "Boca Code Week 4 Kardashev Scale: This project is a webpage that provides information about the Kardashev Scale, a theoretical framework for measuring the technological advancement of civilizations based on energy utilization. The webpage is built using HTML, Vanilla JavaScript, and CSS.",    
+    "content": "Boca Code Week 4: Webpage explaining civilization advancement through the Kardashev Scale, built with HTML, Vanilla JavaScript, and CSS for an immersive experience.",    
     "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/projects/kardashev.webp",
     "repo" : "https://github.com/v-cazeau/kardashev-scale"
   },
   {
     "id": 1.03,
     "title": "Much-To Do",
-    "content": "Boca Code Week 5 Much To-do: A to-do app built with React and Firebase that allows users to create and manage tasks in real-time, with automatic data syncing across multiple devices.",    
+    "content": "Boca Code Week 5: Real-time to-do app powered by React and Firebase, enabling seamless task management across devices with automatic data synchronization.",    
     "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/projects/muchTodo.webp",
     "repo" : "https://github.com/v-cazeau/much-todo-web"
   },
   {
     "id": 1.04,
     "title": "Timber Login",
-    "content": "Boca Code Week 5 Timber Login Page: We developed Login Page with React and React Bootstrap that provides an interface for users to log in or sign up.",    
+    "content": "Boca Code Week 5: React and React Bootstrap-based login page with an intuitive interface, providing secure authentication and sign-up functionalities.",    
     "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/projects/timberLogin.webp",
     "repo" : "https://github.com/v-cazeau/timber-login"
   },
   {
     "id": 1.05,
     "title": "Water Tracker App",
-    "content": "Boca Code Week 8 Water Tracker Mobile App: This week we designed an mobile app with React Native, Expo, and JS to help track daily water intake and stay hydrated. It allows you to work towards a daily water goal, record the amount of water consume during the day, and view progress towards your goal.",    
+    "content": "Boca Code Week 8: React Native, Expo, and JS mobile app to track daily water intake, set goals, and monitor progress for a healthier lifestyle.",    
     "image": "https://raw.githubusercontent.com/v-cazeau/portfolio_1.0/main/src/data/assets/projects/waterIntake.webp",
     "repo" : "https://github.com/v-cazeau/water-tracker"
   }

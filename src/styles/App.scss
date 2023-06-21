@@ -1,10 +1,20 @@
 @use "../layout/CertGallery/gallery";
 @use "../layout/Skills/skills";
-// @use "./bg.scss";
 
 
 #portfolio #about #skills #credentials {
-  scroll-margin: 150em;
+  scroll-margin: 100em;
+}
+
+body {
+  background-image: url(../data/assets/background/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  background-color: rgba(224, 221, 221, 0.463);
+  background-blend-mode: color;
 }
 
 //*********************CAROUSELS***************************//

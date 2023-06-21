@@ -1,4 +1,5 @@
 import { Carousel, Card, Button } from 'react-bootstrap'; 
+import { ShareFill } from 'react-bootstrap-icons'
 import data from '../../data/json/bc_gallery.json'
 
 export default function List () {
@@ -11,7 +12,7 @@ export default function List () {
     }
   
     return (
-      <section id="portfolio">
+      <>
       <Carousel className='carousel-dark d-none d-sm-block'>
         {chunks.map((chunk, index) => (
           <Carousel.Item key={index}>
@@ -23,7 +24,7 @@ export default function List () {
                     <Card.Title>{item.title}</Card.Title>
                     <Card.Text>{item.content}</Card.Text>
                     <Button variant="primary" href={item.repo}>
-                      Go to Repo
+                    <ShareFill color="white" size={25} />
                     </Button>
                   </Card.Body>
                 </Card>
@@ -43,7 +44,7 @@ export default function List () {
                   <Card.Title>{item.title}</Card.Title>
                   <Card.Text>{item.content}</Card.Text>
                   <Button variant="primary" href={item.repo}>
-                  Go to Repo
+                  <ShareFill color="white" size={25} />
                   </Button>
                 </Card.Body>
               </Card>
@@ -51,6 +52,6 @@ export default function List () {
           </Carousel.Item>
         ))}
       </Carousel>
-      </section>
+    </>
     )
 }
