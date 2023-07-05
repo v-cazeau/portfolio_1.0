@@ -1,7 +1,7 @@
 import Intro from '../layout/Intro';
+import Portfolio from '../layout/Portfolio';
 import FutureProjectCarousel from '../layout/FutureProjectCarousel';
 import InternshipProjectCarousel from '../layout/InternshipProjectCarousel';
-import BCProjectCarousel from '../layout/BCProjectCarousel';
 import About from '../layout/About';
 import CertGallery from '../layout/CertGallery';
 import Skills from '../layout/Skills';
@@ -13,9 +13,9 @@ export default function Homepage() {
             <Intro />
             <section id="portfolio">
             <h2 className="text-center">Portfolio</h2>
+            <Portfolio />
             <FutureProjectCarousel />
             <InternshipProjectCarousel />
-            <BCProjectCarousel />
             </section>
             <About />
             <Skills />

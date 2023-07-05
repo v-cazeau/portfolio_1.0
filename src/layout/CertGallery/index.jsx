@@ -1,1 +1,1 @@
-export { default } from './CertGallery'; 
+export { default } from './List'; 
